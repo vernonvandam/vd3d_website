@@ -79,26 +79,16 @@ function App() {
           </p>
         </div>
 
-        <div
-          aria-label="Abstract 3D form in green and charcoal"
-          className="relative mx-auto aspect-square w-full max-w-[540px] overflow-hidden rounded-[2rem] bg-[#dce8d0]"
-        >
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,#f4f7ed_0%,transparent_48%)]" />
-          <div className="absolute left-[12%] top-[15%] h-28 w-28 rounded-full border border-white/60" />
-          <div className="absolute bottom-[12%] right-[10%] h-40 w-40 rounded-full border border-[#80936f]/30" />
-
-          <div className="absolute left-1/2 top-1/2 h-[58%] w-[58%] -translate-x-1/2 -translate-y-1/2 rotate-[-12deg] rounded-[34%] bg-gradient-to-br from-[#b9f178] via-[#8acb4c] to-[#54852d] shadow-[20px_35px_60px_rgba(47,72,33,0.28)]">
-            <div className="absolute inset-[9%] rounded-[34%] border border-white/35" />
-            <div className="absolute left-[16%] top-[12%] h-[24%] w-[48%] rounded-full bg-white/35 blur-xl" />
-          </div>
-
-          <div className="absolute bottom-6 left-6 rounded-full border border-white/70 bg-white/50 px-4 py-2 text-xs font-medium text-[#41493a] backdrop-blur">
-            Ideas, made tangible.
-          </div>
-          <span className="absolute right-7 top-7 text-xs font-semibold tracking-[0.2em] text-[#5f6b54]">
-            VD3D / 01
-          </span>
-        </div>
+<div className="relative mx-auto aspect-square w-full max-w-[540px] overflow-hidden rounded-[2rem] bg-[#dce8d0]">
+  <img
+    src="/images/image1.png"
+    alt="3D design project by VD3D"
+    className="h-full w-full object-cover"
+  />
+  <div className="absolute bottom-6 left-6 rounded-full border border-white/70 bg-white/70 px-4 py-2 text-xs font-medium text-[#41493a] backdrop-blur">
+    Ideas, made tangible.
+  </div>
+</div>
       </section>
 
       <section id="services" className="bg-white px-6 py-20 sm:px-10 md:py-28">
@@ -148,19 +138,16 @@ function App() {
 
       <section id="work" className="mx-auto max-w-7xl px-6 py-20 sm:px-10 md:py-28">
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
-          <div
-            aria-label="Abstract 3D object on a warm background"
-            className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem] bg-[#e8e3d8]"
-          >
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_70%,#c8c1b2_0%,transparent_55%)]" />
-            <div className="absolute left-1/2 top-[46%] h-44 w-44 -translate-x-1/2 -translate-y-1/2 rotate-12 rounded-[2rem] bg-gradient-to-br from-[#51564c] to-[#191c18] shadow-[18px_24px_35px_rgba(25,28,24,0.25)] sm:h-56 sm:w-56">
-              <div className="absolute inset-5 rounded-[1.5rem] border border-white/15" />
-              <div className="absolute left-7 top-7 h-10 w-24 rounded-full bg-white/10 blur-md" />
-            </div>
-            <span className="absolute bottom-5 left-5 text-xs font-medium uppercase tracking-[0.16em] text-[#777468]">
-              Selected work / 01
-            </span>
-          </div>
+<div className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem] bg-[#e8e3d8]">
+  <img
+    src="/images/image2.png"
+    alt="Featured 3D design project by VD3D"
+    className="h-full w-full object-cover"
+  />
+  <span className="absolute bottom-5 left-5 rounded-full bg-white/75 px-3 py-2 text-xs font-medium uppercase tracking-[0.16em] text-[#555449] backdrop-blur">
+    Selected work / 01
+  </span>
+</div>
 
           <div id="about" className="md:pl-8">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#78a94f]">
